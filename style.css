@@ -1,28 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-html,body{
+
+html,
+body {
   display: grid;
   height: 100%;
   width: 100%;
   place-items: center;
   background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
 }
-::selection{
+
+::selection {
   background: #4158d0;
   color: #fff;
 }
-.wrapper1{
+
+.wrapper1 {
   width: 380px;
   background: #fff;
   border-radius: 15px;
-  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
 }
-.wrapper1 .title{
+
+.wrapper1 .title {
   font-size: 35px;
   font-weight: 600;
   text-align: center;
@@ -32,14 +38,16 @@ html,body{
   border-radius: 15px 15px 0 0;
   background: linear-gradient(-135deg, #c850c0, #4158d0);
 }
-.wrapper1 .field{
+
+.wrapper1 .field {
   height: 50px;
   width: 100%;
   margin-top: 20px;
   position: relative;
   text-align: center;
 }
-.wrapper1 .field input{
+
+.wrapper1 .field input {
   height: 100%;
   width: 80%;
   outline: none;
@@ -49,11 +57,13 @@ html,body{
   border-radius: 25px;
   transition: all 0.3s ease;
 }
+
 .wrapper1 .field input:focus,
-.field input:valid{
+.field input:valid {
   border-color: #4158d0;
 }
-.wrapper1 .field label{
+
+.wrapper1 .field label {
   position: absolute;
   top: 50%;
   left: 58px;
@@ -64,15 +74,17 @@ html,body{
   transform: translateY(-50%);
   transition: all 0.3s ease;
 }
-.field input:focus ~ label,
-.field input:valid ~ label{
+
+.field input:focus~label,
+.field input:valid~label {
   top: 0%;
   font-size: 16px;
   color: #4158d0;
   background: #fff;
   transform: translateY(-50%);
 }
-.submit_btn{
+
+.submit_btn {
   color: #fff;
   border: none;
   padding-left: 0;
@@ -86,24 +98,26 @@ html,body{
   height: 35px;
   width: 115px;
 }
-.submit_btn:active{
+
+.submit_btn:active {
   transform: scale(0.95);
 }
 
 /* Import Google font - Poppins */
 
-::selection{
+::selection {
   color: #fff;
   background: #6990F2;
 }
 
-.wrapper{
+.wrapper {
   background: #fff;
   border-radius: 0 0 15px 15px;
   padding: 30px;
-  box-shadow: 7px 7px 12px rgba(0,0,0,0.05);
+  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.05);
 }
-.wrapper .input_video_here{
+
+.wrapper .input_video_here {
   height: 167px;
   display: flex;
   cursor: pointer;
@@ -114,24 +128,29 @@ html,body{
   border-radius: 5px;
   border: 2px dashed #6990F2;
 }
-.input_video_here :where(i, p){
+
+.input_video_here :where(i, p) {
   color: #6990F2;
 }
-.input_video_here i{
+
+.input_video_here i {
   font-size: 50px;
 }
-.input_video_here p{
+
+.input_video_here p {
   margin-top: 15px;
   font-size: 16px;
 }
-.input_type{
+
+.input_type {
   user-select: none;
   margin-top: 15px;
   font-size: 26px;
   text-align: center;
   color: #e91e63;
 }
-.hide{
+
+.hide {
   display: none;
 }
 
