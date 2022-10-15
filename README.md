@@ -5,8 +5,8 @@ Made By [@AyushAgnihotri2025](https://mrayush.me?refer=github)
 ## How to Do Your First Pull Request?  
    ***(I am providing some Resource from where you can Learn)***
    
-    1. [Learn from Video](https://www.youtube.com/watch?v=nkuYH40cjo4)
-    2. [Open Source Guide](https://opensource.guide/how-to-contribute/)
+1. [Learn from Video](https://www.youtube.com/watch?v=nkuYH40cjo4)
+2. [Open Source Guide](https://opensource.guide/how-to-contribute/)
 
 ## How it look.
 
