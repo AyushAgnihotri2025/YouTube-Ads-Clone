@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>YouTube Ads Clone</title>
+      <link rel="icon" href="https://cdn.mrayush.me/image/dev/logo.png" type="image/png">
+      <link rel="stylesheet" href="style.css">
+      <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="wrapper1">
+         <div class="title">
+            YouTube Ads Clone
+         </div>
+         <div class="field">
+            <input type="number" id="ad_times_shown" required>
+            <label>No of times Ad Video to be shown</label>
+         </div>
+         <div class="wrapper hide">
+            <p class="input_type">Input The Main Video</p>
+            <video class="video-js" id="video" width="320" height="240" controls style="display: none;">
+               <source src="" type="video/mp4">
+            </video>
+            <div class="input_video_here">
+                <input class="file-input" type="file" accept="video/mp4" name="file" hidden>
+                <i class="fas fa-cloud-upload-alt"></i>
+                <p>Browse File to Upload</p>
+            </div>
+         </div>
+         <div class="field">
+            <button class="submit_btn">Skip</button>
+            <button class="submit_btn hide" id="play_button">Play</button>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
