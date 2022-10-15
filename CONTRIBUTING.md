@@ -14,7 +14,7 @@ Below you will find the process and workflow used to review and merge your chang
 - Fork this Repository. This will create a Local Copy of this Repository on your Github Profile. Keep a reference to the original project in `upstream` remote.
 
 ```bash
-$ git clone https://github.com/<your-username>/YouTube-Ads-Clone
+$ git clone https://github.com/AyushAgnihotri2025/YouTube-Ads-Clone
 $ cd YouTube-Ads-Clone
 $ git remote add upstream https://github.com/AyushAgnihotri2025/YouTube-Ads-Clone
 ```
