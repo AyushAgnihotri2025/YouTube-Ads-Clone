@@ -115,6 +115,7 @@ body {
   border-radius: 0 0 15px 15px;
   padding: 30px;
   box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
 }
 
 .wrapper .input_video_here {
@@ -147,7 +148,7 @@ body {
   margin-top: 15px;
   font-size: 26px;
   text-align: center;
-  color: #e91e63;
+  color: #c417c7;
 }
 
 .hide {
@@ -157,9 +158,11 @@ body {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
+  appearance: none;
   margin: 0;
 }
 
 input[type=number] {
   -moz-appearance: textfield;
+  appearance: textfield;
 }
