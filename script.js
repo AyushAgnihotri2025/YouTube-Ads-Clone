@@ -49,6 +49,10 @@ ad_times.addEventListener('input', function(e) {
     }
 });
 
+ad_times.addEventListener('keypress', function(e) {
+    if (e.keyCode == 13) document.querySelector(".submit_btn").click();
+});
+
 form.addEventListener("click", () =>{
     fileInput.click();
 });
@@ -62,7 +66,7 @@ fileInput.onchange = ({target})=>{
             fileName = splitName[0].substring(0, 13) + "... ." + splitName[1];
         }
         video_count++;
-        file_input_text.innerHTML = "Input The Advertisement Video";
+        file_input_text.innerHTML = "Upload The Advertisement Video";
         if (video_count >= 2) {
             ad_video = URL.createObjectURL(target.files[0]);
             form.remove();
