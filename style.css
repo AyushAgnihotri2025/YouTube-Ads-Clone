@@ -14,6 +14,9 @@ body {
   width: 100%;
   place-items: center;
   background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  background-image: url('./images/gg.jpg');
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
 }
 
 ::selection {
