@@ -90,44 +90,44 @@ body {
 .submit_btn {
 
   cursor: pointer;
-
-  
-  
   height: 35px;
   width: 115px;
   position: relative;
   padding: 20px;
-margin-left: 25px;
+margin-left: 135px;
 
   
   background-color: black;
   
-  color:white;
-  font-weight: bolder;
+  color:#FB76E2;
+  
   font-family: poppins;
-  border: 5px solid  #c850c0;
+  border: 3px solid  ;
   text-transform: uppercase;
   letter-spacing: 6px;
-  text-shadow: 0 0 45px  #4158d0 0 0 5px  #4158d0;
+  text-shadow: 0 0 45px #FB76E2,0 0 5px  #FB76E2;
    position: relative;
-            text-shadow: 0 0 4px greenyellow,
-    0 0 10px greenyellow,
-    0 0 20px greenyellow,
-    0 0 60px greenyellow,
-    0 0 80px greenyellow,
-    0 0 90px greenyellow;
-  border-radius: 100px;
-  font-size: 19px;
+            text-shadow: 0 0 4px #FB76E2,
+    0 0 10px #FB76E2,
+    0 0 20px #FB76E2,
+    0 0 80px #FB76E2,
+    0 0 90px #FB76E2,
+    0 0 100px #FB76E2;
+  
+  font-size: 20px;
   transition: 1.5s;
   margin-top: -10px;
   line-break: 15px;
-  
+  border-radius: 33px;
   
 }
+.h{
+  margin-top: -11px;
+}
 .submit_btn:hover{
-  box-shadow: 0 5px 50px 0  #c850c0 inset,0 5px 50px 0 #4158d0,
-            0 5px 50px  0  #c850c0 inset,0 5px 50px 0  #4158d0;
-            text-shadow: 0 0 5px  #c850c0 0 0 5px  #4158d0;
+  box-shadow: 0 5px 50px 0  black,0 5px 20px 0 black,
+            0 5px 50px  0  black inset,0 5px 20px 0  black;
+            text-shadow: 0 0 5px black,0 0 4px black;
 }
 
 
