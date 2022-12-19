@@ -1,3 +1,14 @@
+//preloader
+$(document).ready(function() {
+    preloaderFadeOutTime = 500;
+    function hidePreloader() {
+    var preloader = $('.spinner-wrapper');
+    preloader.fadeOut(preloaderFadeOutTime);
+    }
+    hidePreloader();
+    });
+    
+
 const form = document.querySelector(".input_video_here");
 const fileInput = document.querySelector(".file-input");
 const uploadedArea = document.querySelector(".uploaded-area");
