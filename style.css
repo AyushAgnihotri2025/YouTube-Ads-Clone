@@ -101,7 +101,23 @@ body {
   height: 35px;
   width: 115px;
 }
+.submit_btn:hover{
 
+  color: rgb(247, 5, 186);
+  border: none;
+  padding-left: 0;
+  margin-top: -10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 35px;
+  background: white;
+  transition: all 0.3s ease;
+  height: 35px;
+  width: 115px;
+  box-shadow: 0 0 0 4px #5a01a7;
+  border-color: #c417c7;
+}
 .submit_btn:active {
   transform: scale(0.95);
 }
@@ -169,6 +185,7 @@ input[type=number] {
   -moz-appearance: textfield;
   appearance: textfield;
 }
+
 
 
 .spinner-wrapper {
