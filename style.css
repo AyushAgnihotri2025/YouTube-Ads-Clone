@@ -88,23 +88,48 @@ body {
 }
 
 .submit_btn {
-  color: #fff;
-  border: none;
-  padding-left: 0;
-  margin-top: -10px;
-  font-size: 20px;
-  font-weight: 500;
+
   cursor: pointer;
-  border-radius: 35px;
-  background: linear-gradient(-135deg, #c850c0, #4158d0);
-  transition: all 0.3s ease;
   height: 35px;
   width: 115px;
+  position: relative;
+  padding: 20px;
+margin-left: 135px;
+
+  
+  background-color: black;
+  
+  color:#FB76E2;
+  
+  font-family: poppins;
+  border: 3px solid  ;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  text-shadow: 0 0 45px black,0 0 5px  black;
+   position: relative;
+            text-shadow: 0 0 4px #FB76E2,
+    0 0 10px #FB76E2,
+    0 0 20px #FB76E2,
+    0 0 80px #FB76E2,
+    0 0 90px #FB76E2,
+    0 0 100px #FB76E2;
+  
+  font-size: 20px;
+  transition: 1.5s;
+  margin-top: -10px;
+  line-break: 15px;
+  border-radius: 33px;
+  
+}
+.h{
+  margin-top: -11px;
+}
+.submit_btn:hover{
+  box-shadow: 0 5px 50px 0  black,0 5px 20px 0 black,
+            0 5px 50px  0  black inset,0 5px 20px 0  black;
+            text-shadow: 0 0 5px black,0 0 4px black;
 }
 
-.submit_btn:active {
-  transform: scale(0.95);
-}
 
 /* Import Google font - Poppins */
 
